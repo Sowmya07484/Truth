@@ -1,6 +1,13 @@
 import pickle
 
-model = pickle.load(open("model.pkl","rb"))
+import pickle
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
+
+with open(MODEL_PATH, "rb") as f:
+    model = pickle.load(f)
 vectorizer = pickle.load(open("backend/vectorizer.pkl","rb"))
 
 def detect_fake_news(text):
