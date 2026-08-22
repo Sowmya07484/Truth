@@ -1,8 +1,8 @@
 import streamlit as st
-from backend.fake_news_detector import detect_fake_news
-from backend.image_detector import detect_fake_image
-from backend.source_checker import check_source
-from backend.community_report import submit_report, get_all_reports
+from fake_news_detector import detect_fake_news
+from image_detector import detect_fake_image
+from source_checker import check_source
+from community_report import submit_report, get_all_reports
 from PIL import Image
 
 # ---------------- PAGE CONFIG ---------------- #
