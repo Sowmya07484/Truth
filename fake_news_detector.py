@@ -1,6 +1,6 @@
 import pickle
 
-model = pickle.load(open("backend/model.pkl","rb"))
+model = pickle.load(open("model.pkl","rb"))
 vectorizer = pickle.load(open("backend/vectorizer.pkl","rb"))
 
 def detect_fake_news(text):
