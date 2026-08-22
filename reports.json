@@ -1,6 +1,14 @@
 [
     {
-        "content": "trump ate mint choco icecream!!!!!!!!!it was said to be poisoned.",
+        "content": "trump gives free ice creams\n",
+        "reason": "Fake News"
+    },
+    {
+        "content": "india is giving a peace treaty by combining all political parties",
+        "reason": "Misleading Information"
+    },
+    {
+        "content": "The city is a mess due to aliens.",
         "reason": "Fake News"
     }
 ]
